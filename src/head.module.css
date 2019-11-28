@@ -1,0 +1,38 @@
+.headerContainer {
+  background: #000e29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  list-style: none;
+}
+
+.headerContainer h1 {
+  color: aliceblue;
+  padding-left: 0px;
+}
+
+.headerContainer ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.headerContainer ul li {
+  list-style: none;
+  padding-right: 15px;
+}
+
+.headerContainer ul li a {
+  color: white;
+  text-decoration: khaki;
+}
+.headerContainer ul li a:hover {
+  color: red;
+  font-size: 8 rem;
+}
+
+.headerContainer2 img {
+  border-radius: 450px;
+  width: 40%;
+}
